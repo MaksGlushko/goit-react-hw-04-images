@@ -7,7 +7,7 @@ export const Modal = ({ isOpen, image, onClose }) => {
         onClose();
       }
     };
-
+  
     document.addEventListener('keydown', handleKeyDown);
 
     return () => {
